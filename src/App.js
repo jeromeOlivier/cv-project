@@ -12,8 +12,8 @@ const App = () => {
   return (
       <div className="App">
         <Header/>
-        <Profile/>
         <Contact/>
+        <Profile/>
         <Experience/>
         <Education/>
         <Skills/>

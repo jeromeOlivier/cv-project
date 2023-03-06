@@ -11,11 +11,11 @@ const Profile = () => {
 
   return (
       <div className="profile">
-        <h2>Profile</h2>
-        <textarea className="smallInput profile"
+        <h2 className="medium">Profile</h2>
+        <textarea className="smallInput"
                   onChange={ updateState }
                   value={ state }
-                  placeholder={ lorem }>
+                  placeholder="">
         </textarea>
       </div>
   );
