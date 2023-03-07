@@ -1,6 +1,8 @@
 import {useState} from 'react';
 
 const Experience = () => {
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
   const [state, setState] = useState(
       [{companyName: '', from: new Date(), to: new Date(), description: ''}]);
   const updateState = () => {};
@@ -17,13 +19,13 @@ const Experience = () => {
                    placeholder="Company Name"/>
           </div>
           <div>
-            <label>
+            <label>From:
               <input type="date"
                      onChange={ updateState }
                      name="from"
                      value={ state.from }/>
             </label>
-            <label>to
+            <label>to:
               <input type="date"
                      onChange={ updateState }
                      name="to"

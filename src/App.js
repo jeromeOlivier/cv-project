@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header';
 import Profile from './components/Profile';
-import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
@@ -12,12 +11,10 @@ const App = () => {
   return (
       <div className="App">
         <Header/>
-        <Contact/>
         <Profile/>
         <Experience/>
         <Education/>
         <Skills/>
-        <Print/>
       </div>
   );
 };

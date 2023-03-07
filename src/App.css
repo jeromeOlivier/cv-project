@@ -30,6 +30,10 @@ select {
   cursor: pointer;
 }
 
+label {
+  font-weight: 900;
+}
+
 select option {
   font-weight: inherit;
 }
